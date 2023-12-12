@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70372FFB2B25BFEF0023DDCC /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 70372FFA2B25BFEF0023DDCC /* Nimble */; };
+		70372FFD2B25BFEF0023DDCC /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 70372FFC2B25BFEF0023DDCC /* Quick */; };
+		70372FFF2B25C07B0023DDCC /* DashboardViewModelTestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70372FFE2B25C07B0023DDCC /* DashboardViewModelTestSpec.swift */; };
+		7051EC2A2B2218DE00BBF103 /* DNSServiceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC232B2218D100BBF103 /* DNSServiceDetailViewModel.swift */; };
+		7051EC2B2B2218DE00BBF103 /* DNSServiceDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC252B2218D100BBF103 /* DNSServiceDetailModel.swift */; };
+		7051EC2C2B2218DE00BBF103 /* DNSServiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC272B2218D100BBF103 /* DNSServiceDetailView.swift */; };
+		7051EC2D2B2218DE00BBF103 /* DNSServiceDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC292B2218D100BBF103 /* DNSServiceDetailBuilder.swift */; };
+		7051EC392B233DD700BBF103 /* DNSServicesGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC322B233D3A00BBF103 /* DNSServicesGroupViewModel.swift */; };
+		7051EC3A2B233DD700BBF103 /* DNSServicesGroupBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC382B233D3B00BBF103 /* DNSServicesGroupBuilder.swift */; };
+		7051EC3B2B233DD700BBF103 /* DNSServicesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC362B233D3B00BBF103 /* DNSServicesGroupView.swift */; };
+		7051EC3C2B233DD700BBF103 /* DNSServicesGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC342B233D3B00BBF103 /* DNSServicesGroupModel.swift */; };
+		7051EC3F2B23E39D00BBF103 /* DiscoverDNSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC3E2B23E39D00BBF103 /* DiscoverDNSService.swift */; };
+		7051EC412B23E47E00BBF103 /* DNSServicetype+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC402B23E47E00BBF103 /* DNSServicetype+.swift */; };
+		7051EC4A2B242C1200BBF103 /* WikipediaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7051EC492B242C1200BBF103 /* WikipediaKit */; };
+		7051EC4D2B242CA300BBF103 /* WikipediaModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC4C2B242CA300BBF103 /* WikipediaModule.swift */; };
+		7051EC582B24419200BBF103 /* DNSServiceWikipediapageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC512B24419200BBF103 /* DNSServiceWikipediapageViewModel.swift */; };
+		7051EC592B24419200BBF103 /* DNSServiceWikipediapageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC532B24419200BBF103 /* DNSServiceWikipediapageModel.swift */; };
+		7051EC5A2B24419200BBF103 /* DNSServiceWikipediapageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC552B24419200BBF103 /* DNSServiceWikipediapageView.swift */; };
+		7051EC5B2B24419200BBF103 /* DNSServiceWikipediapageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7051EC572B24419200BBF103 /* DNSServiceWikipediapageBuilder.swift */; };
+		70B76D8D2B217B3400246468 /* DiscoverDNSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76D8C2B217B3400246468 /* DiscoverDNSApp.swift */; };
+		70B76D932B217B3500246468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B76D922B217B3500246468 /* Assets.xcassets */; };
+		70B76D962B217B3500246468 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B76D952B217B3500246468 /* Preview Assets.xcassets */; };
+		70B76DAA2B217B3500246468 /* DiscoverDNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DA92B217B3500246468 /* DiscoverDNSUITests.swift */; };
+		70B76DAC2B217B3500246468 /* DiscoverDNSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DAB2B217B3500246468 /* DiscoverDNSUITestsLaunchTests.swift */; };
+		70B76DC72B217C1900246468 /* DiscoverDNSModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DC62B217C1900246468 /* DiscoverDNSModule.swift */; };
+		70B76DC92B217C2C00246468 /* MVVMBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DC82B217C2C00246468 /* MVVMBaseProtocol.swift */; };
+		70B76DCC2B2180EC00246468 /* DNSServiceDiscovery in Frameworks */ = {isa = PBXBuildFile; productRef = 70B76DCB2B2180EC00246468 /* DNSServiceDiscovery */; };
+		70B76DCD2B2181E700246468 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DBE2B217BA800246468 /* DashboardViewModel.swift */; };
+		70B76DCE2B2181E700246468 /* DashboardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DC42B217BA800246468 /* DashboardBuilder.swift */; };
+		70B76DCF2B2181E700246468 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DC02B217BA800246468 /* DashboardModel.swift */; };
+		70B76DD02B2181E700246468 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B76DC22B217BA800246468 /* DashboardView.swift */; };
+		70BD373B2B256EE500949179 /* SwiftUIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BD373A2B256EE500949179 /* SwiftUIView+Helpers.swift */; };
+		70BD37402B25B77F00949179 /* DashboardModelTestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BD373F2B25B77F00949179 /* DashboardModelTestSpec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B76D9C2B217B3500246468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B76D812B217B3400246468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B76D882B217B3400246468;
+			remoteInfo = DiscoverDNS;
+		};
+		70B76DA62B217B3500246468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B76D812B217B3400246468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B76D882B217B3400246468;
+			remoteInfo = DiscoverDNS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70372FFE2B25C07B0023DDCC /* DashboardViewModelTestSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModelTestSpec.swift; sourceTree = "<group>"; };
+		7051EC232B2218D100BBF103 /* DNSServiceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServiceDetailViewModel.swift; sourceTree = "<group>"; };
+		7051EC252B2218D100BBF103 /* DNSServiceDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServiceDetailModel.swift; sourceTree = "<group>"; };
+		7051EC272B2218D100BBF103 /* DNSServiceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServiceDetailView.swift; sourceTree = "<group>"; };
+		7051EC292B2218D100BBF103 /* DNSServiceDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServiceDetailBuilder.swift; sourceTree = "<group>"; };
+		7051EC322B233D3A00BBF103 /* DNSServicesGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServicesGroupViewModel.swift; sourceTree = "<group>"; };
+		7051EC342B233D3B00BBF103 /* DNSServicesGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServicesGroupModel.swift; sourceTree = "<group>"; };
+		7051EC362B233D3B00BBF103 /* DNSServicesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServicesGroupView.swift; sourceTree = "<group>"; };
+		7051EC382B233D3B00BBF103 /* DNSServicesGroupBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSServicesGroupBuilder.swift; sourceTree = "<group>"; };
+		7051EC3E2B23E39D00BBF103 /* DiscoverDNSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDNSService.swift; sourceTree = "<group>"; };
+		7051EC402B23E47E00BBF103 /* DNSServicetype+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DNSServicetype+.swift"; sourceTree = "<group>"; };
+		7051EC4C2B242CA300BBF103 /* WikipediaModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaModule.swift; sourceTree = "<group>"; };
+		7051EC512B24419200BBF103 /* DNSServiceWikipediapageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSServiceWikipediapageViewModel.swift; sourceTree = "<group>"; };
+		7051EC532B24419200BBF103 /* DNSServiceWikipediapageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSServiceWikipediapageModel.swift; sourceTree = "<group>"; };
+		7051EC552B24419200BBF103 /* DNSServiceWikipediapageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSServiceWikipediapageView.swift; sourceTree = "<group>"; };
+		7051EC572B24419200BBF103 /* DNSServiceWikipediapageBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSServiceWikipediapageBuilder.swift; sourceTree = "<group>"; };
+		70B76D892B217B3400246468 /* DiscoverDNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoverDNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B76D8C2B217B3400246468 /* DiscoverDNSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDNSApp.swift; sourceTree = "<group>"; };
+		70B76D922B217B3500246468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B76D952B217B3500246468 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70B76D9B2B217B3500246468 /* DiscoverDNSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverDNSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B76DA52B217B3500246468 /* DiscoverDNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverDNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B76DA92B217B3500246468 /* DiscoverDNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDNSUITests.swift; sourceTree = "<group>"; };
+		70B76DAB2B217B3500246468 /* DiscoverDNSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDNSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70B76DBE2B217BA800246468 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		70B76DC02B217BA800246468 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		70B76DC22B217BA800246468 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		70B76DC42B217BA800246468 /* DashboardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardBuilder.swift; sourceTree = "<group>"; };
+		70B76DC62B217C1900246468 /* DiscoverDNSModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDNSModule.swift; sourceTree = "<group>"; };
+		70B76DC82B217C2C00246468 /* MVVMBaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVVMBaseProtocol.swift; path = DiscoverDNS/Screens/MVVMBaseProtocol.swift; sourceTree = SOURCE_ROOT; };
+		70B76DD12B21B71600246468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		70BD373A2B256EE500949179 /* SwiftUIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUIView+Helpers.swift"; sourceTree = "<group>"; };
+		70BD373F2B25B77F00949179 /* DashboardModelTestSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModelTestSpec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B76D862B217B3400246468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B76DCC2B2180EC00246468 /* DNSServiceDiscovery in Frameworks */,
+				7051EC4A2B242C1200BBF103 /* WikipediaKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B76D982B217B3500246468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70372FFD2B25BFEF0023DDCC /* Quick in Frameworks */,
+				70372FFB2B25BFEF0023DDCC /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B76DA22B217B3500246468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70372FF92B25BFEF0023DDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7051EC212B2218D100BBF103 /* DNSServiceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC222B2218D100BBF103 /* ViewModel */,
+				7051EC242B2218D100BBF103 /* Model */,
+				7051EC262B2218D100BBF103 /* View */,
+				7051EC282B2218D100BBF103 /* Builder */,
+			);
+			path = DNSServiceDetail;
+			sourceTree = "<group>";
+		};
+		7051EC222B2218D100BBF103 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC232B2218D100BBF103 /* DNSServiceDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7051EC242B2218D100BBF103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC252B2218D100BBF103 /* DNSServiceDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7051EC262B2218D100BBF103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC272B2218D100BBF103 /* DNSServiceDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7051EC282B2218D100BBF103 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC292B2218D100BBF103 /* DNSServiceDetailBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		7051EC302B233D3A00BBF103 /* DNSServicesGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC312B233D3A00BBF103 /* ViewModel */,
+				7051EC332B233D3A00BBF103 /* Model */,
+				7051EC352B233D3B00BBF103 /* View */,
+				7051EC372B233D3B00BBF103 /* Builder */,
+			);
+			path = DNSServicesGroup;
+			sourceTree = "<group>";
+		};
+		7051EC312B233D3A00BBF103 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC322B233D3A00BBF103 /* DNSServicesGroupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7051EC332B233D3A00BBF103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC342B233D3B00BBF103 /* DNSServicesGroupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7051EC352B233D3B00BBF103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC362B233D3B00BBF103 /* DNSServicesGroupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7051EC372B233D3B00BBF103 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC382B233D3B00BBF103 /* DNSServicesGroupBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		7051EC4B2B242C7B00BBF103 /* WikipediaModule */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC4C2B242CA300BBF103 /* WikipediaModule.swift */,
+			);
+			path = WikipediaModule;
+			sourceTree = "<group>";
+		};
+		7051EC4F2B24419200BBF103 /* DNSServiceWikipediapage */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC502B24419200BBF103 /* ViewModel */,
+				7051EC522B24419200BBF103 /* Model */,
+				7051EC542B24419200BBF103 /* View */,
+				7051EC562B24419200BBF103 /* Builder */,
+			);
+			path = DNSServiceWikipediapage;
+			sourceTree = "<group>";
+		};
+		7051EC502B24419200BBF103 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC512B24419200BBF103 /* DNSServiceWikipediapageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7051EC522B24419200BBF103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC532B24419200BBF103 /* DNSServiceWikipediapageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7051EC542B24419200BBF103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC552B24419200BBF103 /* DNSServiceWikipediapageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7051EC562B24419200BBF103 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC572B24419200BBF103 /* DNSServiceWikipediapageBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		70B76D802B217B3400246468 = {
+			isa = PBXGroup;
+			children = (
+				70B76D8B2B217B3400246468 /* DiscoverDNS */,
+				70B76D9E2B217B3500246468 /* DiscoverDNSTests */,
+				70B76DA82B217B3500246468 /* DiscoverDNSUITests */,
+				70B76D8A2B217B3400246468 /* Products */,
+				70372FF92B25BFEF0023DDCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70B76D8A2B217B3400246468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B76D892B217B3400246468 /* DiscoverDNS.app */,
+				70B76D9B2B217B3500246468 /* DiscoverDNSTests.xctest */,
+				70B76DA52B217B3500246468 /* DiscoverDNSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B76D8B2B217B3400246468 /* DiscoverDNS */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DD12B21B71600246468 /* Info.plist */,
+				70B76DBA2B217B5100246468 /* Screens */,
+				70B76DB92B217B4B00246468 /* Resources */,
+				70B76DB82B217B4200246468 /* Components */,
+				70B76D942B217B3500246468 /* Preview Content */,
+			);
+			path = DiscoverDNS;
+			sourceTree = "<group>";
+		};
+		70B76D942B217B3500246468 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70B76D952B217B3500246468 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70B76D9E2B217B3500246468 /* DiscoverDNSTests */ = {
+			isa = PBXGroup;
+			children = (
+				70BD37412B25B79600949179 /* Screens */,
+			);
+			path = DiscoverDNSTests;
+			sourceTree = "<group>";
+		};
+		70B76DA82B217B3500246468 /* DiscoverDNSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DA92B217B3500246468 /* DiscoverDNSUITests.swift */,
+				70B76DAB2B217B3500246468 /* DiscoverDNSUITestsLaunchTests.swift */,
+			);
+			path = DiscoverDNSUITests;
+			sourceTree = "<group>";
+		};
+		70B76DB82B217B4200246468 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				70BD37392B256EC300949179 /* UIComponents */,
+				7051EC4B2B242C7B00BBF103 /* WikipediaModule */,
+				70B76DC52B217BF400246468 /* DiscoverDNSModule */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		70B76DB92B217B4B00246468 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70B76D922B217B3500246468 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		70B76DBA2B217B5100246468 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7051EC4F2B24419200BBF103 /* DNSServiceWikipediapage */,
+				7051EC212B2218D100BBF103 /* DNSServiceDetail */,
+				7051EC302B233D3A00BBF103 /* DNSServicesGroup */,
+				70B76DBC2B217BA800246468 /* Dashboard */,
+				70B76D8C2B217B3400246468 /* DiscoverDNSApp.swift */,
+				70B76DC82B217C2C00246468 /* MVVMBaseProtocol.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		70B76DBC2B217BA800246468 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DBD2B217BA800246468 /* ViewModel */,
+				70B76DBF2B217BA800246468 /* Model */,
+				70B76DC12B217BA800246468 /* View */,
+				70B76DC32B217BA800246468 /* Builder */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		70B76DBD2B217BA800246468 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DBE2B217BA800246468 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70B76DBF2B217BA800246468 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DC02B217BA800246468 /* DashboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70B76DC12B217BA800246468 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DC22B217BA800246468 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70B76DC32B217BA800246468 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DC42B217BA800246468 /* DashboardBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		70B76DC52B217BF400246468 /* DiscoverDNSModule */ = {
+			isa = PBXGroup;
+			children = (
+				70B76DC62B217C1900246468 /* DiscoverDNSModule.swift */,
+				7051EC3E2B23E39D00BBF103 /* DiscoverDNSService.swift */,
+				7051EC402B23E47E00BBF103 /* DNSServicetype+.swift */,
+			);
+			path = DiscoverDNSModule;
+			sourceTree = "<group>";
+		};
+		70BD37392B256EC300949179 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				70BD373A2B256EE500949179 /* SwiftUIView+Helpers.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		70BD37412B25B79600949179 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				70BD37422B25B7C500949179 /* Dashboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		70BD37422B25B7C500949179 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				70BD373F2B25B77F00949179 /* DashboardModelTestSpec.swift */,
+				70372FFE2B25C07B0023DDCC /* DashboardViewModelTestSpec.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70B76D882B217B3400246468 /* DiscoverDNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B76DAF2B217B3500246468 /* Build configuration list for PBXNativeTarget "DiscoverDNS" */;
+			buildPhases = (
+				70B76D852B217B3400246468 /* Sources */,
+				70B76D862B217B3400246468 /* Frameworks */,
+				70B76D872B217B3400246468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoverDNS;
+			packageProductDependencies = (
+				70B76DCB2B2180EC00246468 /* DNSServiceDiscovery */,
+				7051EC492B242C1200BBF103 /* WikipediaKit */,
+			);
+			productName = DiscoverDNS;
+			productReference = 70B76D892B217B3400246468 /* DiscoverDNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70B76D9A2B217B3500246468 /* DiscoverDNSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B76DB22B217B3500246468 /* Build configuration list for PBXNativeTarget "DiscoverDNSTests" */;
+			buildPhases = (
+				70B76D972B217B3500246468 /* Sources */,
+				70B76D982B217B3500246468 /* Frameworks */,
+				70B76D992B217B3500246468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B76D9D2B217B3500246468 /* PBXTargetDependency */,
+			);
+			name = DiscoverDNSTests;
+			packageProductDependencies = (
+				70372FFA2B25BFEF0023DDCC /* Nimble */,
+				70372FFC2B25BFEF0023DDCC /* Quick */,
+			);
+			productName = DiscoverDNSTests;
+			productReference = 70B76D9B2B217B3500246468 /* DiscoverDNSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70B76DA42B217B3500246468 /* DiscoverDNSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B76DB52B217B3500246468 /* Build configuration list for PBXNativeTarget "DiscoverDNSUITests" */;
+			buildPhases = (
+				70B76DA12B217B3500246468 /* Sources */,
+				70B76DA22B217B3500246468 /* Frameworks */,
+				70B76DA32B217B3500246468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B76DA72B217B3500246468 /* PBXTargetDependency */,
+			);
+			name = DiscoverDNSUITests;
+			productName = DiscoverDNSUITests;
+			productReference = 70B76DA52B217B3500246468 /* DiscoverDNSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B76D812B217B3400246468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					70B76D882B217B3400246468 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					70B76D9A2B217B3500246468 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 70B76D882B217B3400246468;
+					};
+					70B76DA42B217B3500246468 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 70B76D882B217B3400246468;
+					};
+				};
+			};
+			buildConfigurationList = 70B76D842B217B3400246468 /* Build configuration list for PBXProject "DiscoverDNS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B76D802B217B3400246468;
+			packageReferences = (
+				70B76DCA2B2180EC00246468 /* XCRemoteSwiftPackageReference "swift-dns-service-discovery" */,
+				7051EC482B242C1200BBF103 /* XCRemoteSwiftPackageReference "WikipediaKit" */,
+				70BD373C2B25795F00949179 /* XCRemoteSwiftPackageReference "Nimble" */,
+				70BD37432B25B82300949179 /* XCRemoteSwiftPackageReference "Quick" */,
+			);
+			productRefGroup = 70B76D8A2B217B3400246468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B76D882B217B3400246468 /* DiscoverDNS */,
+				70B76D9A2B217B3500246468 /* DiscoverDNSTests */,
+				70B76DA42B217B3500246468 /* DiscoverDNSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B76D872B217B3400246468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B76D962B217B3500246468 /* Preview Assets.xcassets in Resources */,
+				70B76D932B217B3500246468 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B76D992B217B3500246468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B76DA32B217B3500246468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B76D852B217B3400246468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7051EC5A2B24419200BBF103 /* DNSServiceWikipediapageView.swift in Sources */,
+				7051EC392B233DD700BBF103 /* DNSServicesGroupViewModel.swift in Sources */,
+				70BD373B2B256EE500949179 /* SwiftUIView+Helpers.swift in Sources */,
+				7051EC582B24419200BBF103 /* DNSServiceWikipediapageViewModel.swift in Sources */,
+				70B76DCF2B2181E700246468 /* DashboardModel.swift in Sources */,
+				70B76DC72B217C1900246468 /* DiscoverDNSModule.swift in Sources */,
+				7051EC2B2B2218DE00BBF103 /* DNSServiceDetailModel.swift in Sources */,
+				7051EC592B24419200BBF103 /* DNSServiceWikipediapageModel.swift in Sources */,
+				7051EC3B2B233DD700BBF103 /* DNSServicesGroupView.swift in Sources */,
+				7051EC3C2B233DD700BBF103 /* DNSServicesGroupModel.swift in Sources */,
+				70B76DD02B2181E700246468 /* DashboardView.swift in Sources */,
+				70B76DCD2B2181E700246468 /* DashboardViewModel.swift in Sources */,
+				70B76D8D2B217B3400246468 /* DiscoverDNSApp.swift in Sources */,
+				7051EC2A2B2218DE00BBF103 /* DNSServiceDetailViewModel.swift in Sources */,
+				7051EC3A2B233DD700BBF103 /* DNSServicesGroupBuilder.swift in Sources */,
+				7051EC5B2B24419200BBF103 /* DNSServiceWikipediapageBuilder.swift in Sources */,
+				7051EC4D2B242CA300BBF103 /* WikipediaModule.swift in Sources */,
+				7051EC2C2B2218DE00BBF103 /* DNSServiceDetailView.swift in Sources */,
+				7051EC3F2B23E39D00BBF103 /* DiscoverDNSService.swift in Sources */,
+				70B76DCE2B2181E700246468 /* DashboardBuilder.swift in Sources */,
+				70B76DC92B217C2C00246468 /* MVVMBaseProtocol.swift in Sources */,
+				7051EC2D2B2218DE00BBF103 /* DNSServiceDetailBuilder.swift in Sources */,
+				7051EC412B23E47E00BBF103 /* DNSServicetype+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B76D972B217B3500246468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70372FFF2B25C07B0023DDCC /* DashboardViewModelTestSpec.swift in Sources */,
+				70BD37402B25B77F00949179 /* DashboardModelTestSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B76DA12B217B3500246468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B76DAA2B217B3500246468 /* DiscoverDNSUITests.swift in Sources */,
+				70B76DAC2B217B3500246468 /* DiscoverDNSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B76D9D2B217B3500246468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B76D882B217B3400246468 /* DiscoverDNS */;
+			targetProxy = 70B76D9C2B217B3500246468 /* PBXContainerItemProxy */;
+		};
+		70B76DA72B217B3500246468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B76D882B217B3400246468 /* DiscoverDNS */;
+			targetProxy = 70B76DA62B217B3500246468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70B76DAD2B217B3500246468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70B76DAE2B217B3500246468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B76DB02B217B3500246468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiscoverDNS/Preview Content\"";
+				DEVELOPMENT_TEAM = S9SCX6LC3X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiscoverDNS/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "use local wifi";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duy-Phan.DiscoverDNS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B76DB12B217B3500246468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiscoverDNS/Preview Content\"";
+				DEVELOPMENT_TEAM = S9SCX6LC3X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiscoverDNS/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "use local wifi";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duy-Phan.DiscoverDNS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70B76DB32B217B3500246468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9SCX6LC3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duy-Phan.DiscoverDNSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoverDNS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiscoverDNS";
+			};
+			name = Debug;
+		};
+		70B76DB42B217B3500246468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9SCX6LC3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duy-Phan.DiscoverDNSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoverDNS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiscoverDNS";
+			};
+			name = Release;
+		};
+		70B76DB62B217B3500246468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9SCX6LC3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duy-Phan.DiscoverDNSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscoverDNS;
+			};
+			name = Debug;
+		};
+		70B76DB72B217B3500246468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S9SCX6LC3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Duy-Phan.DiscoverDNSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiscoverDNS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B76D842B217B3400246468 /* Build configuration list for PBXProject "DiscoverDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B76DAD2B217B3500246468 /* Debug */,
+				70B76DAE2B217B3500246468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B76DAF2B217B3500246468 /* Build configuration list for PBXNativeTarget "DiscoverDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B76DB02B217B3500246468 /* Debug */,
+				70B76DB12B217B3500246468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B76DB22B217B3500246468 /* Build configuration list for PBXNativeTarget "DiscoverDNSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B76DB32B217B3500246468 /* Debug */,
+				70B76DB42B217B3500246468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B76DB52B217B3500246468 /* Build configuration list for PBXNativeTarget "DiscoverDNSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B76DB62B217B3500246468 /* Debug */,
+				70B76DB72B217B3500246468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7051EC482B242C1200BBF103 /* XCRemoteSwiftPackageReference "WikipediaKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raureif/WikipediaKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+		70B76DCA2B2180EC00246468 /* XCRemoteSwiftPackageReference "swift-dns-service-discovery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fwcd/swift-dns-service-discovery";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		70BD373C2B25795F00949179 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		70BD37432B25B82300949179 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70372FFA2B25BFEF0023DDCC /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70BD373C2B25795F00949179 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		70372FFC2B25BFEF0023DDCC /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70BD37432B25B82300949179 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		7051EC492B242C1200BBF103 /* WikipediaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7051EC482B242C1200BBF103 /* XCRemoteSwiftPackageReference "WikipediaKit" */;
+			productName = WikipediaKit;
+		};
+		70B76DCB2B2180EC00246468 /* DNSServiceDiscovery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70B76DCA2B2180EC00246468 /* XCRemoteSwiftPackageReference "swift-dns-service-discovery" */;
+			productName = DNSServiceDiscovery;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 70B76D812B217B3400246468 /* Project object */;
+}

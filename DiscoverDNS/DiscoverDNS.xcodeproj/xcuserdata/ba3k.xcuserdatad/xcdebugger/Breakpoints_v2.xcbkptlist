@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "75985169-AAC3-45C8-9638-B07581F30A1A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91B4F337-23A8-4AFA-8A87-F769EF15D902"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/Dashboard/Model/DashboardModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(dnsModule:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "936BD198-CC15-40BB-B44C-DAD0B1209ED2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Query.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "query(_:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "936BD198-CC15-40BB-B44C-DAD0B1209ED2 - 2fa2ec11d05895d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DNSServiceDiscovery.DNSService.query(_: DNSServiceDiscovery.DNSServiceQuery, callback: (Swift.Result&lt;DNSServiceDiscovery.DNSService.FoundInstance, Swift.Error&gt;) -&gt; ()) throws -&gt; DNSServiceDiscovery.DNSService"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Query.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "936BD198-CC15-40BB-B44C-DAD0B1209ED2 - 2fa2ec11d05895d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static DNSServiceDiscovery.DNSService.query(_: DNSServiceDiscovery.DNSServiceQuery, callback: (Swift.Result&lt;DNSServiceDiscovery.DNSService.FoundInstance, Swift.Error&gt;) -&gt; ()) throws -&gt; DNSServiceDiscovery.DNSService"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Query.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "224E8AFF-9389-4DDF-BE57-A39E7E7849C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Browse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "browse(serviceType:domain:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "884105C0-D740-462D-A893-1C54C5385489"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Resolve.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "resolve(name:serviceType:domain:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75ABECD9-FA49-4E3E-BA99-E0D749FECEA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+GetAddrInfo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getAddrInfo(name:domain:protocol:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D23EB38-93F0-49B9-A69C-6181A7C89B87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Browse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "browse(serviceType:domain:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D23EB38-93F0-49B9-A69C-6181A7C89B87 - 56f03dca595e7547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () throws -&gt; DNSServiceDiscovery.DNSService.FoundInstance in closure #2 (Swift.Optional&lt;Swift.OpaquePointer&gt;, Swift.UInt32, Swift.UInt32, Swift.Int32, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; () in static DNSServiceDiscovery.DNSService.browse(serviceType: DNSServiceDiscovery.DNSServiceType, domain: DNSServiceDiscovery.Domain, callback: (Swift.Result&lt;DNSServiceDiscovery.DNSService.FoundInstance, Swift.Error&gt;) -&gt; ()) throws -&gt; DNSServiceDiscovery.DNSService"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Browse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "1D23EB38-93F0-49B9-A69C-6181A7C89B87 - 696a344812ebebb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #3 (Swift.UnsafePointer&lt;Swift.Int8&gt;) -&gt; Swift.String in closure #1 () throws -&gt; DNSServiceDiscovery.DNSService.FoundInstance in closure #2 (Swift.Optional&lt;Swift.OpaquePointer&gt;, Swift.UInt32, Swift.UInt32, Swift.Int32, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; () in static DNSServiceDiscovery.DNSService.browse(serviceType: DNSServiceDiscovery.DNSServiceType, domain: DNSServiceDiscovery.Domain, callback: (Swift.Result&lt;DNSServiceDiscovery.DNSService.FoundInstance, Swift.Error&gt;) -&gt; ()) throws -&gt; DNSServiceDiscovery.DNSService"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Browse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "1D23EB38-93F0-49B9-A69C-6181A7C89B87 - 2db37182312fd3a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #4 (Swift.String) -&gt; DNSServiceDiscovery.Domain in closure #1 () throws -&gt; DNSServiceDiscovery.DNSService.FoundInstance in closure #2 (Swift.Optional&lt;Swift.OpaquePointer&gt;, Swift.UInt32, Swift.UInt32, Swift.Int32, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafePointer&lt;Swift.Int8&gt;&gt;, Swift.Optional&lt;Swift.UnsafeMutableRawPointer&gt;) -&gt; () in static DNSServiceDiscovery.DNSService.browse(serviceType: DNSServiceDiscovery.DNSServiceType, domain: DNSServiceDiscovery.Domain, callback: (Swift.Result&lt;DNSServiceDiscovery.DNSService.FoundInstance, Swift.Error&gt;) -&gt; ()) throws -&gt; DNSServiceDiscovery.DNSService"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/Internal/DNSService+Browse.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DFD6F29-5D2A-4657-A10E-29CA7DCA16BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "navigateDiscoverDNSServices(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DFD6F29-5D2A-4657-A10E-29CA7DCA16BC - 13b1ad2c05e7b7a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNS.DashboardViewModel.navigateDiscoverDNSService(Swift.String) -&gt; DiscoverDNS.DNSServiceDetailView"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2DFD6F29-5D2A-4657-A10E-29CA7DCA16BC - 13b1ad2c05e7b7cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNS.DashboardViewModel.navigateDiscoverDNSService(Swift.String) -&gt; DiscoverDNS.DNSServiceDetailView"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2DFD6F29-5D2A-4657-A10E-29CA7DCA16BC - b7b97107aa836193"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNS.DashboardViewModel.navigateDiscoverDNSServices(Swift.String) -&gt; DiscoverDNS.DNSServicesGroupView"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE0FE7DE-1F8A-432C-BAA3-2DDE0FC1E8DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../Library/Developer/Xcode/DerivedData/DiscoverDNS-eqyulqeijurdyzflalqpexntbmal/SourcePackages/checkouts/swift-dns-service-discovery/Sources/DNSServiceDiscovery/DNSServiceDiscovery.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "lookup(_:deadline:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4FED9AB-E121-461E-B218-730794ECEE0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Components/DiscoverDNSModule/DiscoverDNSModule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "startDiscoveringDNS(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3826628-A547-4CD6-BF92-E804D70BCBA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Components/DiscoverDNSModule/DiscoverDNSModule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "lookupDNSService(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A183566-6D33-46B2-9B76-DBCE632131D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Components/DiscoverDNSModule/DiscoverDNSModule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "lookupDNSService(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30EEA51F-FD40-41E3-9D68-71C0D17AFED0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/DNSServicesGroup/ViewModel/DNSServicesGroupViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "filterDNS()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30EEA51F-FD40-41E3-9D68-71C0D17AFED0 - ebf3c9fcaaf546f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DiscoverDNS.DiscoverDNSService) -&gt; () in DiscoverDNS.DNSServicesGroupViewModel.filterDNS() -&gt; ()"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/DNSServicesGroup/ViewModel/DNSServicesGroupViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+               <Location
+                  uuid = "30EEA51F-FD40-41E3-9D68-71C0D17AFED0 - ebf3c9fcaaf54769"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DiscoverDNS.DiscoverDNSService) -&gt; () in DiscoverDNS.DNSServicesGroupViewModel.filterDNS() -&gt; ()"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/DNSServicesGroup/ViewModel/DNSServicesGroupViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1536">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C66F3CC-D164-4950-A8BE-3E97F6044CC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Components/WikipediaModule/WikipediaModule.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "searchWikipedia(keysearch:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "158BEE91-63C2-4C69-A6AC-8C64D684DA8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "filterDNS()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "158BEE91-63C2-4C69-A6AC-8C64D684DA8E - 4445974a5badff41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNS.DashboardViewModel.filterDNS() -&gt; ()"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "158BEE91-63C2-4C69-A6AC-8C64D684DA8E - 4445974a5badff07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNS.DashboardViewModel.filterDNS() -&gt; ()"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB0EFB0E-B4FA-4E53-B6E5-8DE2574B77C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "filterDNS()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F2B1D9B-5B4C-4062-A40E-C3E45DEC10A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F2B1D9B-5B4C-4062-A40E-C3E45DEC10A4 - b126a6b46022bd5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "8F2B1D9B-5B4C-4062-A40E-C3E45DEC10A4 - b126a6b46022bc71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "8F2B1D9B-5B4C-4062-A40E-C3E45DEC10A4 - 193fff39796174ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "530CB0ED-1000-4364-B3C4-F5533724A00B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "530CB0ED-1000-4364-B3C4-F5533724A00B - 4115d24a155b2298"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #3 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "530CB0ED-1000-4364-B3C4-F5533724A00B - 4115d24a155b2590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #3 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD3DE9D3-9E37-4E64-BCDE-6CEC90F1329F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "startDiscoveringDNS()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD3DE9D3-9E37-4E64-BCDE-6CEC90F1329F - 321c648dd1ef6d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;DiscoverDNS.DiscoverDNSService&gt;&gt;) -&gt; () in DiscoverDNS.DashboardViewModel.startDiscoveringDNS() -&gt; ()"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "CD3DE9D3-9E37-4E64-BCDE-6CEC90F1329F - 321c648dd1ef6d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;DiscoverDNS.DiscoverDNSService&gt;&gt;) -&gt; () in DiscoverDNS.DashboardViewModel.startDiscoveringDNS() -&gt; ()"
+                  moduleName = "DiscoverDNS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A244A035-0F10-4DB7-ADF0-85918CDEFF98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "startDiscoveringDNS(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A244A035-0F10-4DB7-ADF0-85918CDEFF98 - f10e5234a99b7bbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNSTests.MockDashboardModel.startDiscoveringDNS(completion: (Swift.Optional&lt;Swift.Array&lt;DiscoverDNS.DiscoverDNSService&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "A244A035-0F10-4DB7-ADF0-85918CDEFF98 - 729d0912b7efbdef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in DiscoverDNSTests.MockDashboardModel.startDiscoveringDNS(completion: (Swift.Optional&lt;Swift.Array&lt;DiscoverDNS.DiscoverDNSService&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "A244A035-0F10-4DB7-ADF0-85918CDEFF98 - f10e5234a99b7ab4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverDNSTests.MockDashboardModel.startDiscoveringDNS(completion: (Swift.Optional&lt;Swift.Array&lt;DiscoverDNS.DiscoverDNSService&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "A244A035-0F10-4DB7-ADF0-85918CDEFF98 - 729d0912b7efbce7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () -&gt; () in DiscoverDNSTests.MockDashboardModel.startDiscoveringDNS(completion: (Swift.Optional&lt;Swift.Array&lt;DiscoverDNS.DiscoverDNSService&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9F8E34A-9691-44B8-9AC4-91FA1F2A626A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNS/Screens/Dashboard/ViewModel/DashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "startDiscoveringDNS()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A36EF8C1-3C95-4DAF-BAC9-45C4B2BFDBAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A36EF8C1-3C95-4DAF-BAC9-45C4B2BFDBAD - 292e6ccf6a9fed9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "A36EF8C1-3C95-4DAF-BAC9-45C4B2BFDBAD - 292e6ccf6a9fedb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "514B350D-9306-4151-88E3-A4FDFD805634"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "514B350D-9306-4151-88E3-A4FDFD805634 - 1c76403517d2bdda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "514B350D-9306-4151-88E3-A4FDFD805634 - 292e6ccf6a9fe7ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "514B350D-9306-4151-88E3-A4FDFD805634 - 292e6ccf6a9fec11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD0C9A17-3D0A-465F-89B4-61EB4EE50566"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD0C9A17-3D0A-465F-89B4-61EB4EE50566 - 820b7aa7687e6717"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "DD0C9A17-3D0A-465F-89B4-61EB4EE50566 - 1c76403517d2b624"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "DD0C9A17-3D0A-465F-89B4-61EB4EE50566 - 4115d24a155b2978"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AB84469-9092-4D8C-9F58-D42998B5FACC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AB84469-9092-4D8C-9F58-D42998B5FACC - b126a6b46022bc94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "1AB84469-9092-4D8C-9F58-D42998B5FACC - b126a6b46022bf4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "282CC44B-D2C5-49F6-AC7C-C8B004926D81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "spec()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A33E7A6B-47EA-4951-96DE-B41FEE40A86F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "spec()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF903128-7870-4105-89E6-7E6990F73234"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DF903128-7870-4105-89E6-7E6990F73234 - 4115d24a155b26e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "DF903128-7870-4105-89E6-7E6990F73234 - 292e6ccf6a9fecd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; () in closure #2 () -&gt; () in static DiscoverDNSTests.DashboardViewModelTestSpec.spec() -&gt; ()"
+                  moduleName = "DiscoverDNSTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ba3k/Documents/Work/Thebeckz007/NamiTest/nami-mobile-dev-challenge-oehzyl/DiscoverDNS/DiscoverDNS/DiscoverDNSTests/Screens/Dashboard/DashboardViewModelTestSpec.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
